@@ -1,0 +1,21 @@
+@mixin tablet {
+  @media (min-width: 600px) and (max-width: 1023px) {
+    header {
+      h2 {
+        font-size: 28px;
+      }
+      p {
+        font: 13px $open-sans;
+      }
+    }
+
+    .post {
+      .post__image {
+        padding: 0 25px;
+        img {
+          height: 350px;
+        }
+      }
+    }
+  }
+}
